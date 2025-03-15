@@ -17,7 +17,7 @@ VALUES
 
 INSERT INTO employee_roles (title, salary, department_id)
 VALUES
-    ('manager', 12.23, 1),
+    ('meatball manager', 12.23, 1),
     ('meatball roller', 110.25, 1);
 
 -- CREATE TABLE employees(
@@ -36,7 +36,6 @@ VALUES
     ('Sam', 'Johnson', 1, 1, NULL), 
     ('John', 'Samson', 1, 2, 1);
 
-SELECT e.id, e.first_name, e.last_name, e.manager_id, m.first_name AS manager_first_name, m.last_name AS manager_last_name 
-FROM employees e 
-JOIN employees m ON e.manager_id = m.id
-
+-- SELECT e.id, e.first_name, e.last_name, e.manager_id, m.first_name AS manager_first_name, m.last_name AS manager_last_name 
+-- FROM employees e 
+-- JOIN employees m ON e.manager_id = m.id
