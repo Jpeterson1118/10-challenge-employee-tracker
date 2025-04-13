@@ -19,7 +19,9 @@
   Download the repo source files and navigate to the destination folder you chose. Run npm install to install all dependencies.
 
   ## Usage
-  Run npm start and follow the prompts to select or create and delete employees or departments, and assign or remove roles and departments.
+  Run npm start and follow the prompts to select or create, view, and delete employees or departments, and assign or remove roles and departments.
+
+  https://drive.google.com/file/d/1t8i4L-NeaaVnZ6fBxLty87-Nao-WW8v1/view?usp=sharing
 
   ## Apache 2.0 License
 
